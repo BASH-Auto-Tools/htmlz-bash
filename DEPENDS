@@ -1,0 +1,4 @@
+htmlz-bash
+Version: 0.20171227
+Description: HTMLZ (ZIP web archive) create and browse in bash
+Depends: bash, 7z, sed, grep, findutils, coreutils, wget

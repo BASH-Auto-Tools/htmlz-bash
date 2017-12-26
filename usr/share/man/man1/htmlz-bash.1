@@ -1,0 +1,59 @@
+.TH htmlz-bash 1 "27 Dec 2017" "0.20171223" "User Manual"
+.SH NAME
+\fBhtmlz-browse\fP
+.SH DESCRIPTION
+HTMLZ file (ZIP WEB archive) viewer in browser.
+.SH USAGE
+htmlz-browse [options] file.htmlz
+.SH OPTIONS
+.TP
+\fB-b\fP 'str'
+use browser (default = 'x-www-browser');
+.TP
+\fB-h\fP
+display help and exit
+.SH NAME
+\fBhtmlz-create\fP
+.SH DESCRIPTION
+HTMLZ file (ZIP WEB archive) creator.
+.SH USAGE
+htmlz-create [options] /path/to/html/dir [file.htmlz]
+.SH OPTIONS
+.TP
+\fB-h\fP
+display help and exit
+.SH NAME
+\fBhtmlz-unpack\fP
+.SH DESCRIPTION
+HTMLZ file (ZIP WEB archive) unpack.
+.SH USAGE
+htmlz-unpack [options] file.htmlz
+.SH OPTIONS
+.TP
+\fB-h\fP
+display help and exit
+.SH NAME
+\fBhtmlz-wget\fP
+.SH DESCRIPTION
+HTMLZ file (ZIP WEB archive) wget page.
+.SH USAGE
+htmlz-wget [options] name url/to/html/page
+.SH OPTIONS
+.TP
+\fB-c\fP
+clean LIST (sample 'js,php,eot,wott,ttf', default = '')
+.TP
+\fB-r\fP
+reject LIST (sample 'js,php,eot,wott,ttf', default = '')
+.TP
+\fB-h\fP
+display help and exit
+.SH CONFIG FILE
+ /etc/htmlz-bash.conf
+ ~/config/htmlz-bash.conf
+.SH COPYRIGHT
+ Copyright (c) 2017 zvezdochiot
+.SH SEE ALSO
+ war-create(1).
+.SH CONTACTS
+ Homepage: https://github.com/zvezdochiot/htmlz-bash

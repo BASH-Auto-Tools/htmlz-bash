@@ -28,7 +28,7 @@ OPTIONS:
 -h    display help and exit
 
 htmlz-wget  
-HTMLZ file (HTMLZ WEB archive) wget page.
+HTMLZ file (ZIP WEB archive) wget page.
 
 USAGE: htmlz-wget [options] name url/to/html/page  
 OPTIONS:  
